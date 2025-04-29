@@ -26,15 +26,15 @@ This project demonstrates a simple yet production-style **ETL pipeline** that:
 ```plaintext
 csv-datawarehouse-etl-airflow/
 ├── dags/
-│   └── etl_pipeline.py         # Airflow DAG
+│   └── etl_pipeline.py        
 ├── data/
-│   └── sales_data.csv          # Sample input data
+│   └── sales_data.csv         
 ├── scripts/
-│   ├── extract.py              # Extract from CSV
-│   ├── transform.py            # Clean & enhance data
-│   └── load.py                 # Load into PostgreSQL
-├── docker-compose.yml          # Docker for Airflow + Postgres
-├── requirements.txt            # Python libraries
+│   ├── extract.py             
+│   ├── transform.py            
+│   └── load.py                 
+├── docker-compose.yml          
+├── requirements.txt           
 └── README.md
 
 ```
