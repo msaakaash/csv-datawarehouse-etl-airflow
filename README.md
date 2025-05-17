@@ -1,14 +1,14 @@
-# 📊 CSV to Data Warehouse ETL Pipeline using Airflow
+# CSV to Data Warehouse ETL Pipeline using Airflow
 
 This project demonstrates a simple yet production-style **ETL pipeline** that:
-- 📥 **Extracts** data from a CSV file
-- 🔄 **Transforms** it using Python (Pandas)
-- 🛢️ **Loads** it into a PostgreSQL data warehouse
-- ⏰ Uses **Apache Airflow** for task orchestration and scheduling
+-  **Extracts** data from a CSV file
+-  **Transforms** it using Python (Pandas)
+-  **Loads** it into a PostgreSQL data warehouse
+-   Uses **Apache Airflow** for task orchestration and scheduling
 
 
 
-## 🚀 Tech Stack
+## Tech Stack
 
 | Component       | Tech                                |
 |----------------|-------------------------------------|
@@ -19,25 +19,31 @@ This project demonstrates a simple yet production-style **ETL pipeline** that:
 | Containerization| Docker + Docker Compose            |
 | Scheduling      | Airflow DAGs (daily trigger)       |
 
+## Contributing
+
+We welcome contributions from everyone!
+
+1. **Fork** this repository.
+2. **Create** a new branch:
+   ```bash
+   git checkout -b feature/your-feature-name
+   ```
+3. **Commit** your changes:
+   ```bash
+   git commit -m "Add your message"
+   ```
+4. **Push** the changes:
+   ```bash
+   git push origin feature/your-feature-name
+   ```
+5. **Open** a Pull Request.
 
 
-## 📁 Project Structure
 
-```plaintext
-csv-datawarehouse-etl-airflow/
-├── dags/
-│   └── etl_pipeline.py        
-├── data/
-│   └── sales_data.csv         
-├── scripts/
-│   ├── extract.py             
-│   ├── transform.py            
-│   └── load.py                 
-├── docker-compose.yml          
-├── requirements.txt           
-└── README.md
+## License  
+This project is licensed under the [MIT License](LICENSE).
 
-```
+
 
 ## Author
  [**Aakaash M S**](https://github.com/msaakaash)
